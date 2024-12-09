@@ -30,7 +30,7 @@ public class CatchableObject : MonoBehaviour
                 UnityEngine.Debug.Log("Bomb caught! Game over.");
 
             }
-            Destroy(gameObject); // Remove the object
+            Destroy(other); // Remove the object
         }
     }
 }
